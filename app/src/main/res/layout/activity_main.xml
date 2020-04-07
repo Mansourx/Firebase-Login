@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:id="@+id/email_et"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_centerInParent="true"
+            android:hint="Email..."/>
+
+
+        <EditText
+            android:id="@+id/pass_et"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_centerInParent="true"
+            android:hint="Password..."/>
+
+
+        <Button
+            android:id="@+id/sign_up_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textColor="#000000"
+            android:background="#FFFFFF"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="100dp" />
+
+        <TextView
+            android:id="@+id/user_sign-in_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="35dp"
+            android:text="Already have an account, Sign in here!"
+            android:layout_centerInParent="true" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
